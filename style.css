@@ -2,6 +2,20 @@
     margin:0%;
     font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
+#nav-bar{
+    text-align: right;
+    margin: 20px 50px 0px 0px;
+    padding:5px;
+}
+.nav-element{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    color:#3E3E3E;
+    font-weight:600;
+
+}
 .half-width{
     width:40%;
     float: left;
@@ -76,17 +90,29 @@ padding:0% 2% 1% 0%;
 }
 .inquiary-sec{
     background-image: url(images/photos/rectangle.png);
-    background-size:30%;
-    background-position: center;
+    background-size:70%;
     background-repeat: no-repeat;
-    border: blue 2px solid;
-    text-align: center;
+    background-position: center;
+    height:300px;
 }
+#Inquiary-header{
+    color: whitesmoke;
+    padding-top:110px;
+    padding-left:200px;
+    position: absolute;
+    font-size: 30px;
+}
+#chat-button{
+    padding-top:140px;
+    padding-left: 900px;
+    position: relative;
+}
+
 h3{
     text-align: center;
     color:gray;
 }
-h2{
+#link-header{
     text-align: center;
     font-size: 40px;
     
